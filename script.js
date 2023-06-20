@@ -1,7 +1,7 @@
 function calculateMinCost() {
   //your code here
 	const input = document.getElementsByTagName('input')[0];
-  
+  const result = document.getElementById('result');
 	let inputValues = input.value.split(',');
 	
   // let arr = [4, 2, 7, 6, 9];
@@ -35,7 +35,7 @@ for(let x of res){
 }
 
 // console.log(sum);
-	const result = document.getElementById('result');
+	
 	result.innerHTML = sum;
 
 }  
