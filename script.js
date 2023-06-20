@@ -40,4 +40,4 @@ for(let x of res){
 
 }  
 
-
+module.exports = calculateMinCost;
