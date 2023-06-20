@@ -36,7 +36,7 @@ for(let x of res){
 
 // console.log(sum);
 	const result = document.getElementById('result');
-	result.innerText = sum;
+	result.innerHTML = sum;
 
 }  
 
